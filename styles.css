@@ -1,0 +1,24 @@
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 50px
+}
+
+.main-body {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.main-body > div {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
+}
